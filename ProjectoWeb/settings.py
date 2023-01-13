@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(s6300epq_jw9o_!#&11oa(-6g@_k(c67@j5n21in98%y$c(g*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','127.0.0.1','localhost']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myproject.apps.MyprojectConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,6 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'USER':'',
+        'PASSWORD':'',
+        'HOST':'',
+        'PORT':'',
     }
 }
 

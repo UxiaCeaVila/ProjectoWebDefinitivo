@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    {% for product in products %}
+        <p>-------------------------------------------------------------------------------------------------------------</p>
+
+            <p class="numserie">Numero de serie: {{product.numserie}}</p>
+            <div class="content">
+            <p>Nombre: {{product.nombre}}</p>
+            <p>Modelo: {{product.modelo}}  Version: {{product.version}}</p>
+            </div>
+      {% endfor %}
+
+ {% endblock %}

@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="v1" />
+    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="v1.1">
+      <change afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/frontpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/information.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/ProjectoWeb/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectoWeb/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/ProjectoWeb/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectoWeb/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/ProjectoWeb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectoWeb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/ProjectoWeb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectoWeb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/ProjectoWeb/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectoWeb/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,9 +43,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/a21uxiacv/PycharmProjects/ProjectoWeb"
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "C:/Users/a21uxiacv/PycharmProjects/webDjango",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb" />
+      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb\ProjectoWeb" />
+      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb\myproject\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
       <module name="ProjectoWeb" />
@@ -63,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669375612591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1">
+      <created>1669375843167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669375843167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v1.1">
+      <created>1669376013950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669376013950</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

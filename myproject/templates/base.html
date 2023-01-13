@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RobotPage</title>
+    </head>
+    <body>
+        <div class="page-header">
+        <h2><a href="/"> Pagina web de proyectos</a></h2>
+        <a href="{% url 'frontpage' %}" class="top-menu"><span class='glyphicon-plus'>Inicio</span> </a>
+        <a href="{% url 'information' %}" class="top-menu"><span class='glyphicon-minus'>Sobre nosotros</span> </a>
+        <a href="{% url 'products' %}" class="top-menu"><span class='glyphicon-minus'>Productos</span> </a>
+    </div>
+    <div class="content">
+            <div>
+            {% block content %}
+            {% endblock %}
+            </div>
+    </div>
+    </body>
+</html>
