@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="230210">
-      <change afterPath="$PROJECT_DIR$/myproject/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/templates/venderProducto.html" afterDir="false" />
+    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="230215">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectoWeb/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/formLogin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/formRegistro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/listarProducts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/listarProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/listarProducts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/venderProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/venderProducto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/views.py" afterDir="false" />
     </list>
@@ -39,22 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a21uxiacv/PycharmProjects/webDjango&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "C:/Users/a21uxiacv/PycharmProjects/ceavila",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\myproject\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo" />
+      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\myproject" />
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\myproject\static\css" />
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb" />
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb\ProjectoWeb" />
-      <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWeb\myproject\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectoWeb/manage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676033082919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="230215">
+      <created>1676456585752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676456585752</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,17 +143,7 @@
     <MESSAGE value="v1" />
     <MESSAGE value="v1.1" />
     <MESSAGE value="230210" />
-    <option name="LAST_COMMIT_MESSAGE" value="230210" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="230215" />
+    <option name="LAST_COMMIT_MESSAGE" value="230215" />
   </component>
 </project>

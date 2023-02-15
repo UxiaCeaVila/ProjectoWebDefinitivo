@@ -8,3 +8,4 @@ class Product(models.Model):
     modelo = models.CharField(max_length=150)
     version = models.CharField(max_length=150)
     precio = models.CharField(max_length=150)
+

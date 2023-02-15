@@ -1,16 +1,36 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h2> hola</h2>
-    {% for product in products %}
-        <p>-------------------------------------------------------------------------------------------------------------</p>
+<h3>Lista Productos</h3>
+{% for product in products %}
+<div class="row mt-3">
+    <div class="col">
+        <hr />
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Numero de serie</th>
+                <th>Nombre</th>
+                <th>Modelo</th>
+                <th>Version</th>
+                <th>Modelo</th>
+                <th>Precio</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Numero de serie: {{product.numserie}}</td>
+                <td>Nombre: {{product.nombre}}</td>
+                <td>Modelo: {{product.modelo}}</td>
+                <td>Version: {{product.version}}</td>
+                <td>Precio: {{product.precio}}</td>
+                <td><a class="btn btn-primary btn-xs">
+                    Comprar</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endfor %}
 
-            <p class="numserie">Numero de serie: {{product.numserie}}</p>
-            <div class="content">
-            <p>Nombre: {{product.nombre}}</p>
-            <p>Modelo: {{product.modelo}}  Version: {{product.version}}</p>
-            <p>Precio: {{product.precio}}</p>
-            </div>
-            <a class="btn btn-primary btn-xs">Comprar</a>
-      {% endfor %}
-
- {% endblock %}
+{% endblock %}
