@@ -21,9 +21,9 @@
                 <td>{{client.nombre}}</td>
                 <td>{{client.dniclient}}</td>
                 <td>{{client.fecNac}}</td>
-                <td><a class="btn btn-primary btn-xs">
-                    Ver todos sus productos</a><a class="btn btn-primary btn-xs" href="{% url 'gestion:borrarCliente' client.idclient %}" >
-                    Borrar cliente</a>
+                <td><a class="btn btn-primary btn-xs" href="{% url 'gestion:listarVentas' client.idclient %}">
+                    Ventas</a><a class="btn btn-primary btn-xs" href="{% url 'gestion:borrarCliente' client.idclient %}" >
+                    Borrar Cliente</a>
                 </td>
             </tr>
             </tbody>

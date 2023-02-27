@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="230215 v2">
-      <change afterPath="$PROJECT_DIR$/myproject/templates/listarClientes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/templates/nuevoCliente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/listarVentas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/nuevaVenta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectoWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectoWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/information.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/listarClientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/listarClientes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/templates/listarProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/listarProducts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/venderProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/nuevoProducto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/views.py" afterDir="false" />
     </list>
@@ -41,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a21uxiacv/PycharmProjects/ceavila&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Proyecto2/manage.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\myproject\templates" />
@@ -68,12 +71,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\a21uxiacv\AppData\Local\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectoWeb" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

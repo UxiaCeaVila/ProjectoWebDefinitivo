@@ -13,4 +13,10 @@ class Client(models.Model):
     nombre = models.CharField(max_length=150)
     dniclient = models.CharField(max_length=9)
     fecnac = models.CharField(max_length=150)
+class Venta(models.Model):
+    idventa = models.AutoField(auto_created=True,serialize=False, verbose_name='ID', primary_key= True)
+    idclient = models.IntegerField()
+    idproduct = models.IntegerField()
+    precio = models.IntegerField()
+    unidades = models.IntegerField()
 

@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <h3>Lista Productos</h3>
+<a  class="btn btn-primary btn-xs" href="{% url 'gestion:nuevoProducts' %}">Añadir productos</a>
 {% for product in products %}
 <div class="row mt-3">
     <div class="col">
@@ -12,7 +13,6 @@
                 <th>Nombre</th>
                 <th>Modelo</th>
                 <th>Version</th>
-                <th>Modelo</th>
                 <th>Precio</th>
             </tr>
             </thead>
@@ -23,8 +23,7 @@
                 <td>{{product.modelo}}</td>
                 <td>{{product.version}}</td>
                 <td>{{product.precio}}</td>
-                <td><a class="btn btn-primary btn-xs" href="{% url 'gestion:listarClientes' %}">
-                    Clientes</a><a class="btn btn-primary btn-xs" href>
+                <td><a class="btn btn-primary btn-xs" href="{% url 'gestion:borrarProducts' product.numserie %}">
                     Borrar producto</a>
                 </td>
             </tr>
