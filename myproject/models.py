@@ -8,4 +8,9 @@ class Product(models.Model):
     modelo = models.CharField(max_length=150)
     version = models.CharField(max_length=150)
     precio = models.CharField(max_length=150)
+class Client(models.Model):
+    idclient = models.AutoField(auto_created=True,serialize=False, verbose_name='ID', primary_key= True)
+    nombre = models.CharField(max_length=150)
+    dniclient = models.CharField(max_length=9)
+    fecnac = models.CharField(max_length=150)
 

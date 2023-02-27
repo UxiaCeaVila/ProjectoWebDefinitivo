@@ -14,16 +14,13 @@
     <h1><a class="nav-link" href="/"> ROBOTPAGE</a></h1>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{% url 'frontpage' %}">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="{% url 'gestion:frontpage' %}">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{% url 'information' %}">Sobre nosotros</a>
+            <a class="nav-link active" href="{% url 'gestion:listarProducts' %}">Ver lista de productos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="{% url 'listarProducts' %}">Ver lista de productos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="{% url 'venderProducts' %}">Añadir productos</a>
+            <a class="nav-link active" href="{% url 'gestion:nuevoProducts' %}">Añadir productos</a>
         </li>
 
     </ul>

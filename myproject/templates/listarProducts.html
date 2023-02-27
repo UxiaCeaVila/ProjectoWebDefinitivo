@@ -18,13 +18,14 @@
             </thead>
             <tbody>
             <tr>
-                <td>Numero de serie: {{product.numserie}}</td>
-                <td>Nombre: {{product.nombre}}</td>
-                <td>Modelo: {{product.modelo}}</td>
-                <td>Version: {{product.version}}</td>
-                <td>Precio: {{product.precio}}</td>
-                <td><a class="btn btn-primary btn-xs">
-                    Comprar</a>
+                <td>{{product.numserie}}</td>
+                <td>{{product.nombre}}</td>
+                <td>{{product.modelo}}</td>
+                <td>{{product.version}}</td>
+                <td>{{product.precio}}</td>
+                <td><a class="btn btn-primary btn-xs" href="{% url 'gestion:listarClientes' %}">
+                    Clientes</a><a class="btn btn-primary btn-xs" href>
+                    Borrar producto</a>
                 </td>
             </tr>
             </tbody>

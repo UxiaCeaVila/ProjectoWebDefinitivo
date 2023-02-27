@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="230215">
+    <list default="true" id="e03118a5-ef41-47a1-85b9-706ffaf2e032" name="Changes" comment="230215 v2">
+      <change afterPath="$PROJECT_DIR$/myproject/templates/listarClientes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/nuevoCliente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectoWeb/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectoWeb/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/information.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/templates/listarProducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/listarProducts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/venderProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/venderProducto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/venderProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/nuevoProducto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/views.py" afterDir="false" />
     </list>
@@ -39,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "last_opened_file_path": "C:/Users/a21uxiacv/PycharmProjects/ceavila",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a21uxiacv/PycharmProjects/ceavila&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a21uxiacv\PycharmProjects\ProjectoWebDefinitivo\myproject\templates" />
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676456585752</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="230215 v2">
+      <created>1676466476651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676466476651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +153,7 @@
     <MESSAGE value="v1.1" />
     <MESSAGE value="230210" />
     <MESSAGE value="230215" />
-    <option name="LAST_COMMIT_MESSAGE" value="230215" />
+    <MESSAGE value="230215 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="230215 v2" />
   </component>
 </project>
